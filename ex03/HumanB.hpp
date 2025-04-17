@@ -6,7 +6,7 @@
 /*   By: gbravo-f <gbravo-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/28 18:01:36 by gbravo-f          #+#    #+#             */
-/*   Updated: 2025/03/28 18:01:37 by gbravo-f         ###   ########.fr       */
+/*   Updated: 2025/04/16 17:28:42 by gbravo-f         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -22,7 +22,7 @@ class HumanB
     public:
         HumanB(std::string name);
         ~HumanB();
-        void setWeapon(Weapon weapon);
+        void setWeapon(Weapon& weapon);
         void attack();
 };
 #endif
